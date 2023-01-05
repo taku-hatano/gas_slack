@@ -7,7 +7,7 @@ type Response<T> = T extends {
 	responses: { 200: { schema: infer R } };
 }
 	? R
-	: {};
+	: void;
 
 export type SlackOperation = keyof operations;
 
