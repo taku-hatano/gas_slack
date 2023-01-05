@@ -6,8 +6,8 @@ export const fetchSlack = <T extends SlackOperation>(
 	params: SlackParameter<T>
 ) => {
 	const payload = {};
-	Object.keys(params).forEach(key => {
-		Object.assign(payload, params[key as keyof typeof params]);
+	Object.values(params).forEach(val => {
+		Object.assign(payload, val);
 	});
 	const { url, method } = slackUrlDefinitions[operation];
 	Logger.log(`Request to Slack...
