@@ -1,0 +1,13 @@
+{
+	"trailingComma": "none",
+	"tabWidth": 4,
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": ["*.{js,ts}"],
+			"options": {
+				"arrowParens": "avoid"
+			}
+		}
+	]
+}

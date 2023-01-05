@@ -1,0 +1,1 @@
+SLACK_OPENAPI_SPEC=https://raw.githubusercontent.com/slackapi/slack-api-specs/bc08db49625630e3585bf2f1322128ea04f2a7f3/web-api/slack_web_openapi_v2.json
